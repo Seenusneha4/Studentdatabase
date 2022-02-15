@@ -1,0 +1,24 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addstud"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="ADD STUDENT"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:text="SEARCH STUDENT"
+        android:background="@color/button"
+        android:id="@+id/searchstud"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
